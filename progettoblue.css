@@ -3,91 +3,92 @@
 /* font primario */
 
 .fmod-1{
-
+    
     font-family: 'Dela Gothic One', cursive;
 }
 
 /* font secondario */
 
 .fmod-2{
-
-
+    
+    
     font-family: 'EB Garamond', serif;
-
+    
 }
 
 /* my color's palette */
 
 :root{
-
+    
     --primary-color:#3f37c9;
     --secondary-color:#ffd60a;
     --third-color:#000814;
-    --fourth-color:#ffffff
+    --fourth-color:#ffffff;
+    --fifth-color:#6c757d;
 }
 
 /* my class color: */
 
 .fcolblue{
-
+    
     color: var(--primary-color);
 }
 
 .fccoloryellow{
-
-color: var(--secondary-color);
-
+    
+    color: var(--secondary-color);
+    
 }
 
 .fccolordark{
-
-color:var(--third-color)
-
-
+    
+    color:var(--third-color)
+    
+    
 }
 
 
 .fccolorwhite{
-
-color: var(--fourth-color);
-
-
+    
+    color: var(--fourth-color);
+    
+    
 }
 
 
 /* my css options: */
 
 header{
-
+    
     background: linear-gradient(0deg, rgba(231,231,231,0) 0%, rgba(0,0,0,1) 90%), url(./media/header.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -30vh;
     
-
-
-
-}
     
+    
+    
+}
 
+/* parte header */
 
 .h1titolo{
-
+    
     font-size: 55px;
     margin-top: 90px;
-
+    
 }
 
 .paragtitolo{
-
-
- margin-top: 6px;
-
+    
+    
+    margin-top: 6px;
+    
 }
 
 .buttonstart{
-
+    
     background-color:var(--secondary-color);
     padding-left: 30px;
     padding-right: 30px;
@@ -97,3 +98,153 @@ header{
     margin-left: 32px;
     font-weight: 500;
 }   
+
+/* parte paragrafo main */
+
+
+.titolosecond{
+    
+    font-size: 40px;
+}
+
+.parsecond{
+    
+    font-size: 20px;
+    color: var(--fifth-color);
+}
+
+/* parte delle 4 card */
+
+.card-custom1{
+    
+    background-image: radial-gradient(circle, rgba(102,102,102,0.5) 0%, rgba(0, 0, 0, 0.871) 100%), url(./media/1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0%;
+    height: 380px;
+    width: 300px;
+    
+}
+
+
+.card-custom2{
+    
+    background-image: radial-gradient(circle, rgba(102,102,102,0.5) 0%, rgba(0, 0, 0, 0.871) 100%), url(./media/2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0%;
+    height: 380px;
+    width: 300px;
+    
+}.card-custom3{
+    
+    background-image: radial-gradient(circle, rgba(102,102,102,0.5) 0%, rgba(0, 0, 0, 0.871) 100%),url(./media/3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0%;
+    height: 380px;
+    width: 300px;
+    
+}.card-custom4{
+    
+    background-image: radial-gradient(circle, rgba(102,102,102,0.5) 0%, rgba(0, 0, 0, 0.871) 100%), url(./media/4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0%;
+    height: 380px;
+    width: 300px;
+    
+}
+
+.lineagialla{
+    
+    
+   border: 3px solid var(--secondary-color);
+   
+   
+    
+}
+
+.card-body{
+
+    margin-top: 70px;
+}
+
+
+
+
+.h2card{
+    
+    
+    
+    color: white;
+}
+
+.parcard{
+    
+    color: white;
+}
+
+.div4imm{
+
+    margin-top: 40px;
+}
+
+
+/* sezione cartone e 6 cartine */
+
+
+/* cartella sinistra */
+
+
+/* cartelle da 6 mini a destra */
+
+.par6imm{
+
+
+    border-radius: 20px;
+    padding: 25px;
+}
+
+/* colori delle 6 immagini */
+
+
+
+
+
+
+
+/* le card scoscese */
+
+.scosc1{
+
+ border-radius: 20px;
+ padding:50px;
+ position: absolute;
+ padding-bottom: 35px;
+ padding-top: 35px;
+}
+
+.scosc2{
+
+    border-radius: 20px;
+   
+    padding-bottom: 50px;
+    padding-right: 240px;
+    position: absolute;
+    margin-left: 270px;
+   
+   
+   
+}
+
+
+
+
+
+.cont2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-right: 3vh;
+}    
