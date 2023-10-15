@@ -64,7 +64,7 @@ background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 33%, rgb(0, 0, 1) 90%),
 background-repeat: no-repeat,no-repeat,no-repeat;
 height: 100vh;
 background-size: auto,auto,auto;
-background-position-y:bottom, bottom, 422px  ;
+background-position-y:bottom, bottom, 385px  ;
 
 
 
@@ -266,17 +266,38 @@ margin-top: 55px;
    margin-top: 60px;
 }
 
-.blocco1{
+.scosc1{
 
+
+    margin-left: 90px;
+}
+ 
+.i2{
+    color:  #1566C0;
+}
+.dimBlocco1{
+    width: 90%;
+}
+.dimBlocco1 > div{
+    width: 50%;
+}
+.ms-10{
+    margin-left: 5%;
+}
+.mt-b2{
+    margin-top: 250px;
+}
+.dimCard{
+    height: fit-content;
 }
 
-.blocco2{
+.card-shadow{
+    border: 0px solid rgba(0, 0, 0, 0);
+    box-shadow: 4px 8px 15px lightgray;
+    border-radius: 23px;
 
-    
 }
-
-
-
+/* immafini invertite circolari */
 
 .imgcustom{
 
@@ -300,6 +321,9 @@ margin-top: 55px;
 
     height: 200px;
 }
+
+
+/* my timeline */
 
 
 .timeline{
@@ -330,6 +354,8 @@ margin-top: 55px;
     width: 140px;
 }
 
+/* my footer */
+
 
 footer{
 
@@ -341,4 +367,27 @@ footer{
 .divbloccone{
 
     margin-left: 27px;
+}
+
+/* icone footer */
+
+.iconefine{
+
+color: var(--secondary-color);
+
+
+
+}
+
+
+.cardinvert{
+
+
+    margin-top: 110px;
+}
+
+.contscosc{
+
+
+    margin-top: 110px;
 }
