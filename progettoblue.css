@@ -3,56 +3,56 @@
 /* font primario */
 
 .fmod-1{
-    
-    font-family: 'Dela Gothic One', cursive;
+   
+   font-family: 'Dela Gothic One', cursive;
 }
 
 /* font secondario */
 
 .fmod-2{
-    
-    
-    font-family: 'EB Garamond', serif;
-    
+   
+   
+   font-family: 'EB Garamond', serif;
+   
 }
 
 /* my color's palette */
 
 :root{
-    
-    --primary-color:#3f37c9;
-    --secondary-color:#ffd60a;
-    --third-color:#000814;
-    --fourth-color:#ffffff;
-    --fifth-color:#6c757d;
+   
+   --primary-color:#3f37c9;
+   --secondary-color:#ffd60a;
+   --third-color:#000814;
+   --fourth-color:#ffffff;
+   --fifth-color:#6c757d;
 }
 
 /* my class color: */
 
 .fcolblue{
-    
-    color: var(--primary-color);
+   
+   color: var(--primary-color);
 }
 
 .fccoloryellow{
-    
-    color: var(--secondary-color);
-    
+   
+   color: var(--secondary-color);
+   
 }
 
 .fccolordark{
-    
-    color:var(--third-color)
-    
-    
+   
+   color:var(--third-color)
+   
+   
 }
 
 
 .fccolorwhite{
-    
-    color: var(--fourth-color);
-    
-    
+   
+   color: var(--fourth-color);
+   
+   
 }
 
 
@@ -61,60 +61,60 @@
 
 
 .bgHeader2{
-
-
-    background-image: url(media/wave2.svg),url(./media/wave1.svg);
+   
+   
+   background-image: url(media/wave2.svg),url(./media/wave1.svg);
 }
 
 
 
 .bgHeader{
-
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(media/header.jpg);
-background-repeat: no-repeat;
-background-position: bottom;
-    
-
-
-
-
-
-
+   
+   background: rgb(0,0,0);
+   background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(media/header.jpg);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   
+   
+   
+   
+   
+   
+   
 }
 .buttonHeader{
-
-    color: #000000;
-    background-color: #ffd60a;
-    font-family: 'EB Garamond', serif;
-    border: 0.5px solid black;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: bold;
+   
+   color: #000000;
+   background-color: #ffd60a;
+   font-family: 'EB Garamond', serif;
+   border: 0.5px solid black;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 40px;
+   padding-right: 40px;
+   font-weight: bold;
 }
 
 h1{
-
-    color: white;
+   
+   color: white;
 }
 
 .parHeader{
-
-    color: white;
+   
+   color: white;
 }
 
 
 .sfondo2{
-
-    width: 100%;
-    
+   
+   width: 100%;
+   
 }
 
 
 .bgwave1{
-
+   
    background-image: url(./media/wave1.svg);
    background-repeat: no-repeat;
    background-position-y: 95%;  
@@ -122,277 +122,292 @@ h1{
 }
 
 .bgwave2{
-
-    background-image: url(./media/wave2.svg);
-    background-repeat: no-repeat;
-    background-position-y: 100%;
    
-    
- }
-
- .scritteHeader{
-
-    padding-top: 130px;
- }
-
- .card1{
-
-    height: 315px;
-    width: 260px;
-    background-color: #3f37c9;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
- }
-
- .card2{
-
-    height: 315px;
-    width: 260px;
-    background-color: #3f37c9;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
- } 
- 
- .card3{
-
-    height: 315px;
-    width: 260px;
-    background-color: #3f37c9;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
- }
- .card4{
-
-    height: 315px;
-    width: 260px;
-    background-color: #3f37c9;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
- }
-
- h2{
-
-    color: #3f37c9;
-    font-size: 40px;
- }
-
- .paraHeader{
-
-    font-size: 17px;
- }
-
- hr{
-
-    
-    border: 2px solid rgb(223, 223, 30);
-    opacity: 1;
-    position: relative;
-    top: -26px;
+   background-image: url(./media/wave2.svg);
+   background-repeat: no-repeat;
+   background-position-y: 100%;
    
- }
- 
+   
+}
 
- .h3shadow{
+.scritteHeader{
+   
+   padding-top: 130px;
+}
 
-    color: #3f37c9;
- }
+.card1{
+   
+   height: 315px;
+   width: 260px;
+   background-color: #3f37c9;
+   background: rgb(0,0,0);
+   background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   
+}
 
- i{
+.card2{
+   
+   height: 315px;
+   width: 260px;
+   background-color: #3f37c9;
+   background: rgb(0,0,0);
+   background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   
+} 
 
-    font-size: 30px;
-    margin-bottom: 10px;
- }
- 
+.card3{
+   
+   height: 315px;
+   width: 260px;
+   background-color: #3f37c9;
+   background: rgb(0,0,0);
+   background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   
+}
+.card4{
+   
+   height: 315px;
+   width: 260px;
+   background-color: #3f37c9;
+   background: rgb(0,0,0);
+   background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0.16130959219625352) 100%),url(./media/4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   
+}
 
- .loghetti6{
+h2{
+   
+   color: #3f37c9;
+   font-size: 40px;
+}
 
-    font-size: 40px;
-    color: red;
- }
+.paraHeader{
+   
+   font-size: 17px;
+}
 
- .loghetti5{
-
-    font-size: 40px;
-    color: black;
- }
- .loghetti4{
-
-    font-size: 40px;
-    color: rgb(209, 209, 3);
- }
- .loghetti3{
-
-    font-size: 40px;
-    color: blue;
- }
- .loghetti2{
-
-    font-size: 40px;
-    color: purple;
- }
- .loghetti1{
-
-    font-size: 40px;
-    color: green;
- }
-
- .containercardone{
-
-    margin-top: 100px;
- }
-
-
- .deforme2{
-
-    height: fit-content;
-    
- }
- 
-
- .containerdiverso{
-
-    margin-top: 150px;
- }
+hr{
+   
+   
+   border: 2px solid rgb(223, 223, 30);
+   opacity: 1;
+   position: relative;
+   top: -26px;
+   
+}
 
 
- .deforme4{
+.h3shadow{
+   
+   color: #3f37c9;
+}
 
+i{
+   
+   font-size: 30px;
+   margin-bottom: 10px;
+}
+
+
+.loghetti6{
+   
+   font-size: 40px;
+   color: red;
+}
+
+.loghetti5{
+   
+   font-size: 40px;
+   color: black;
+}
+.loghetti4{
+   
+   font-size: 40px;
+   color: rgb(209, 209, 3);
+}
+.loghetti3{
+   
+   font-size: 40px;
+   color: blue;
+}
+.loghetti2{
+   
+   font-size: 40px;
+   color: purple;
+}
+.loghetti1{
+   
+   font-size: 40px;
+   color: green;
+}
+
+.containercardone{
+   
+   margin-top: 100px;
+}
+
+
+.deforme2{
+   
    height: fit-content;
- }
-
- .deforme3{
-
-    height: fit-content;
-  }
+   
+}
 
 
-  .carddistend2{
+.containerdiverso{
+   
+   margin-top: 150px;
+}
 
+
+.deforme4{
+   
    height: fit-content;
-  }
+}
 
-  .containerdist2{
+.deforme3{
+   
+   height: fit-content;
+}
 
+
+.carddistend2{
+   
+   height: fit-content;
+}
+
+.containerdist2{
+   
    margin-top: 80px;
-  }
+}
 
 
-  .carddistend3{
+.carddistend3{
    
-
+   
    height: fit-content;
    width: 330px;
- 
    
-  }
+   
+}
 
-  .carddistend4{
+.carddistend4{
    height: fit-content;
-   width: 25   0px;   
-
-  
- 
- 
+   width: 222px;
    
-  }
+   
+   
+   
+   
+   
+   
+}
 
 
 
 
-  .rowdist2{
+.rowdist2{
+   
+   
+   margin-right: 200px;
+   
+   
+}
 
-   margin-right: 140px;
-  }
-
-  .titoloreverso{
-
+.titoloreverso{
+   
    color: #3f37c9;
-  }
+}
 
 
-  .candreversa1{
-
-   position: relative;
-  }
-
-  .containerstorto{
-   margin-top: 160px;
-  }
-
-  .imgmontagna{
-
-      border-radius: 50%;
-      height: 250px;
-      width: 250px;
-      border: 2px solid blue;
-      padding: 5px;
-  }
-
-
-  .contimeline{
-
-   margin-top: 120px;
-
-
-  
+.candreversa1{
    
-  }
+   position: relative;
+}
 
-  .h4line{
+.containerstorto{
+   margin-top: 160px;
+}
 
+.imgmontagna{
+   
+   border-radius: 50%;
+   height: 230px;
+   width: 230px;
+   border: 2px solid blue;
+   padding: 5px;
+}
+
+
+.contimeline{
+   
+   margin-top: 120px;
+   
+   
+   
+   
+}
+
+.h4line{
+   
    color: #3f37c9;
    font-size: 30px;
-  }
+}
 
-  h5{
-
+h5{
+   
    color: #3f37c9;
-  }
+}
 
 
-  .border-left{
-
+.border-left{
+   
    border-right: solid 3px blue;
-  }
+}
 
-  .border-right{
-
+.border-right{
+   
    border-left: solid 3px blue;
    
-  }
+}
 
-  .bloccoDx {
+.bloccoDx {
    padding-top: 33vh;
    min-height: 110vh;
 }
 .bloccoSx {    
    height: 110vh;
-  
+   
 }
 /* TIMELINE */
 .time-border{
    border-right: 4px solid #1566C0;
    position: relative;
-   height: 130vh;
-      
+   height: auto;
+   
 }
 .spazio {
    height:50vh;
+   
+   
+   
+}
+
+
+.pallino{
+   
+   position: relative;
 }
 
 .pallino::after{
@@ -403,8 +418,12 @@ h1{
    border: 4px solid  #1566C0;
    border-radius: 50%;
    position: absolute;
-   top: -2px;
-   left: 41vw;
+   left: -41px;
+}
+
+.pallino2{
+   
+   position: relative;
 }
 
 .pallino2::after{
@@ -415,27 +434,16 @@ h1{
    border: 4px solid  #1566C0;
    border-radius: 50%;
    position: absolute;
-   top: 0px;
-   right: 42vw;
+   right: -29px;
 }
 
 
-.pallino3::after{
-   content: "";
-   height: 30px;
-   width: 30px;
-   background-color: white;
-   border: 4px solid  #1566C0;
-   border-radius: 50%;
-   position: absolute;
-   top: 20px;
-   right: 42vw;
-}
+
 
 
 
 .sas{
-
+   
    color: #060079;
 }
 .btn{
@@ -448,44 +456,220 @@ h1{
 }
 
 .spazio2{
-
+   
    height: 280px;
 }
 
 .contfooter{
-
+   
    margin-top: 0px;
 }
 
 footer{
-
    
-   height: 70vh;
+   height: 75vh;
+   width: 100%;
+   
+}
+
+.edit3{
+   
+   
+   
    background: rgb(255,255,255);
    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9344188358937325) 13%, rgba(190,190,190,0.55906869583771) 27%, rgba(0,0,0,0.8952031496192226) 67%),url(./media/footer.jpg);
    background-size: cover;
 }
 
 .scrittafooter{
-
+   
    color: #ffdd32;
+   
 }
 
 .pfooter{
    color: #ffffff;
 }
 
-.colinsta{
 
-   margin-bottom: 43px;
-}
 
 .ifine{
-
+   
    color: white;
 }
 
 .coloreblu{
-
+   
    color: #3f37c9;
 }
+
+.scrittafooter1{
+   
+   
+   color: #ffd60a;
+}
+
+
+/* le media q */
+
+@media screen and (min-width:992px) and (max-width:1201px){
+   
+   
+}
+
+
+@media screen and (max-width:992px){
+   
+   
+   .rowdist2{
+      
+      
+      margin-right: 100px;
+      
+      
+   }
+   
+   
+   
+   
+}
+
+@media screen and (max-width:615px) {
+   
+   
+   .imgmontagna{
+      
+      height: 200px;
+      width: 200px;
+      
+      margin-top: 30px;
+   }
+   
+   .cardreversa1{
+      
+      
+      width: 40vh;
+      margin-left: 30px;
+   }
+   
+}
+
+
+
+@media screen and (max-width:769px){
+   
+   
+   .rowdist2{
+      
+      
+      width: max-content;
+      
+      
+   }
+   
+   .rowend{
+      padding-left: 100px;
+   }
+   
+   .carddistend3{
+      
+      width: 220px;
+   }
+   
+   .carddistend4{
+      
+      width: 200px;
+   }
+   
+   .carddistend1{
+      
+      width: 190px;
+   }
+   
+   
+   
+   
+   
+}
+
+@media screen and (max-width:577px){
+   
+   .divcardmini3{
+      
+      margin-top: 30px;
+   }
+   
+   
+}
+
+
+
+@media screen and (max-width:544px){
+   
+   .rowcardine{
+      
+      justify-content: center;
+   }
+   
+}
+
+
+@media screen and (min-width:69px) and (max-width:576px){
+   
+   .cardone{
+      
+      width: 170px;
+      
+   }
+   
+   .deforme2{
+      
+      width: fit-content;
+      
+   }
+   
+   
+   .deforme3{
+      
+      width: 180px;
+   }
+
+
+   
+ .deforme4{
+
+   width: fit-content;
+ }
+
+
+     
+ .deforme5{
+
+   width: 120px;
+ }
+
+ .deforme6{
+
+   width: fit-content;
+ }
+
+ .deforme7{
+
+   width:190px;
+ }
+
+
+ .deforme8{
+
+   width:150px;
+ }
+
+
+ 
+
+}
+   
+   
+   
+
+
